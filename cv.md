@@ -1,4 +1,4 @@
-## Aliaksei Kasiuk
+## ![Avatar](me.png) Aliaksei Kasiuk
 
 ### Contact information:
 
