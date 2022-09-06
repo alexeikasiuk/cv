@@ -48,6 +48,8 @@ I only have teamwork experience as a frontend developer in a student lab It-Acad
 [It-Academy course "English for IT"](https://www.it-academy.by/specialization/angliyskiy-dlya-it/)  
 [codewars kata](https://www.codewars.com/users/alexeikasiuk)  
 
+**self-education project:** [rs-school_cv](https://github.com/alexeikasiuk/rsschool-cv)
+
 ### Languages:
 
 **English:** A2
