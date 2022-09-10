@@ -1,15 +1,123 @@
-body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+@font-face {
+  font-family: Source-Sans-Pro;
+  src: local(Source-Sans-Pro-Regular),
+    url(fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf);
 }
-h1 {
-  color: blue;
-  font-size: 36px;
+* {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3 {
+  font-weight: normal;
+}
+body {
+  font-family: Source-Sans-Pro;
+}
+header {
+  background-color: #6fcadc;
+}
+figure {
+  display: inline-block;
   text-align: center;
+  margin: 0.5em;
+}
+figure img {
+  border: 1px solid #fff;
+  padding: 0.5em;
+  width: 8em;
+}
+figcaption {
+  color: #fff;
+  display: inline-block;
+  font-size: 1.3em;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5em;
 }
 a {
-  color: brown;
-  display: block;
-  font-size: 60px;
-  text-align: center;
   text-decoration: none;
+}
+.info {
+  display: inline-block;
+  padding-right: 1em;
+}
+.info h2 {
+  color: #fff;
+  font-size: 1.2em;
+  margin-bottom: 0.4em;
+  /* display: none; */
+}
+.info ul {
+  list-style-type: none;
+  margin-left: 3em;
+}
+.info li {
+  position: relative;
+  margin: 0.8em;
+}
+.info li::before {
+  left: -2em;
+  position: absolute;
+}
+address {
+  display: inline;
+}
+.adress::before {
+  content: url(images/map.png);
+}
+.phone::before {
+  content: url(images/phone.png);
+}
+.email::before {
+  content: url(images/email.png);
+}
+.git::before {
+  content: url(images/git.png);
+  display: inline-block;
+  height: 10px;
+  width: 15px;
+}
+.telegram::before {
+  content: url(images/telegram.png);
+}
+.discord,
+.info h2 {
+  display: none;
+}
+.info h3,
+.info p {
+  display: inline-block;
+}
+main section h2 {
+  color: #fff;
+  display: inline-block;
+  font-size: 1.2em;
+  /* letter-spacing: 0.05em; */
+  min-width: 10em;
+  padding: 0.2em 1em;
+}
+main p {
+  padding: 1em;
+}
+.about h2,
+.exper h2,
+.lang h2 {
+  background-color: #6fcadc;
+}
+main ul {
+  margin: 1em 2em;
+}
+.code img {
+  margin-top: 0.5em;
+  display: block;
+}
+.skills h2,
+.edu h2 {
+  background-color: #eba720;
+}
+.code h2,
+.proj h2 {
+  background-color: #3dba92;
 }
