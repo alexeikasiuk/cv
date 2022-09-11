@@ -12,11 +12,22 @@ h2,
 h3 {
   font-weight: normal;
 }
+html {
+  min-height: 100%;
+}
 body {
   font-family: Source-Sans-Pro;
+  font-size: 18px;
+  max-width: 980px;
+  margin: 0 auto;
+  min-height: 100%;
 }
 header {
   background-color: #6fcadc;
+}
+header,
+main {
+  flex: 100%;
 }
 figure {
   display: inline-block;
@@ -41,21 +52,19 @@ a {
 }
 .info {
   display: inline-block;
-  padding-right: 1em;
-}
-.info h2 {
-  color: #fff;
-  font-size: 1.2em;
-  margin-bottom: 0.4em;
-  /* display: none; */
+  padding-right: 0.5em;
 }
 .info ul {
   list-style-type: none;
-  margin-left: 3em;
+  margin-left: 1em;
 }
 .info li {
   position: relative;
   margin: 0.8em;
+  margin-right: 0;
+}
+.info .phone {
+  font-size: 0.9em;
 }
 .info li::before {
   left: -2em;
@@ -82,9 +91,11 @@ address {
 .telegram::before {
   content: url(images/telegram.png);
 }
-.discord,
-.info h2 {
+.discord {
   display: none;
+}
+.discord::before {
+  content: url(images/discord.png);
 }
 .info h3,
 .info p {
@@ -94,7 +105,6 @@ main section h2 {
   color: #fff;
   display: inline-block;
   font-size: 1.2em;
-  /* letter-spacing: 0.05em; */
   min-width: 10em;
   padding: 0.2em 1em;
 }
@@ -120,4 +130,61 @@ main ul {
 .code h2,
 .proj h2 {
   background-color: #3dba92;
+}
+@media only screen and (min-width: 480px) {
+  figure {
+    margin: 1em;
+  }
+  figcaption {
+    font-size: 1.6em;
+  }
+  .info {
+    margin-left: 1em;
+  }
+  .discord {
+    display: inline;
+  }
+}
+@media only screen and (min-width: 768px) {
+  body {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  header {
+    flex: 30%;
+  }
+  header,
+  main {
+    padding-top: 2em;
+    box-sizing: border-box;
+  }
+  figure,
+  .info {
+    display: block;
+  }
+  figcaption {
+    font-size: 2em;
+  }
+  .info ul {
+    left: 0.7em;
+    margin: 1em auto;
+    position: relative;
+    width: 9em;
+  }
+  .info li {
+    font-size: 1.2em;
+  }
+  .info .discord,
+  .info .phone {
+    font-size: 1em;
+  }
+  main {
+    flex: 70%;
+  }
+  main section > * {
+    padding-left: 2em;
+  }
+  main ul {
+    margin-left: 1em;
+  }
 }

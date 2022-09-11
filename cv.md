@@ -11,7 +11,7 @@
 
 ### About me:
 
-I'm a mechanical engineer. I actively studying web development at the moment.
+I'm a mechanical engineer. I'm actively studying web development at the moment to be a full stack developer.
 
 ### Skills:
 
