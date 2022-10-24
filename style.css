@@ -123,7 +123,8 @@ main ul {
   margin-top: 0.5em;
   display: block;
 }
-.edu h2 {
+.edu h2,
+.pet_projects h2 {
   background-color: #eba720;
 }
 .code h2,
