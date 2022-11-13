@@ -15,10 +15,14 @@ I'm a mechanical engineer. I'm actively studying web development at the moment t
 
 ### Skills:
 
-- HTML, CSS, SASS, BootStrap
-- JavaScript, TypeScript, Python
-- Angular, React, Node.js, GIT
-- VSCode, Figma, Adobe
+- HTML, CSS, SASS
+- jQuery, BootStrap
+- JavaScript, TypeScript
+- Angular, React
+- Node.js, GIT
+- Figma, Photoshop
+- PHP, MySql, Lavarel
+- Python, Django
 
 ### Code example:
 
@@ -49,8 +53,14 @@ I have teamwork experience as a frontend developer in the student lab It-Academy
 [It-Academy course "English for IT"](https://www.it-academy.by/specialization/angliyskiy-dlya-it/)  
 [codewars kata](https://www.codewars.com/users/alexeikasiuk)
 
-**Self-education project:** [rs-school_cv](https://github.com/alexeikasiuk/rsschool-cv)
+**Self-education project:** [rs-school](https://rs.school/js/)
 
 ### Languages:
 
 **English:** A2
+
+### Pet projects:
+
+- [Online-zoo](https://alexeikasiuk.github.io/online-zoo/pages/main/index.html)
+- [The Gem Puzzle](https://alexeikasiuk.github.io/the-gem-puzzle/dist/index.html)
+- [SongQuiz](https://alexeikasiuk.github.io/songquiz/dist/index.html)
