@@ -1,3 +1,3 @@
-[CV markdown page](https://alexeikasiuk.github.io/rsschool-cv/cv)
+[CV markdown page](https://alexeikasiuk.github.io/cv/cv)
 
-[CV html page](https://alexeikasiuk.github.io/rsschool-cv/)
+[CV html page](https://alexeikasiuk.github.io/cv/)
